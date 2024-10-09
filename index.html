@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="snake.css">
+    <script src="snake.js" defer></script>
+</head>
+
+<body>
+    <canvas id="board"></canvas>
+    <div class="container">
+        <div id="score" class="score">Score: 0</div>
+        <div class="buttons" style="display: none;"> <!-- Initially hidden -->
+            <div class="row">
+                <button class="control-button" id="up-button">Up</button>
+            </div>
+            <div class="row">
+                <button class="control-button" id="left-button">Left</button>
+                <button class="control-button" id="down-button">Down</button>
+                <button class="control-button" id="right-button">Right</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
